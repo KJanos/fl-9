@@ -1,0 +1,145 @@
+.main-wrapper{
+	margin: 0 100px 0 100px;
+	header{
+		display: flex;
+		height: auto;
+		overflow: auto;
+		flex-flow: row wrap;
+		justify-content: space-between;
+		.logo{
+			width:35%;
+			img{
+				width: 100%;
+			}
+		}
+		nav{
+			width:45%;
+			align-self: flex-end;
+			border-top: 1px solid black;
+			border-bottom: 1px solid black;
+			/*flex2*/
+			display: flex;
+			height: auto;
+			overflow: auto;
+			flex-flow: row wrap;
+			justify-content: space-around;
+			margin-bottom: 3.5%;
+			padding: 10px 50px 10px 100px;
+
+			a{
+				width: 30%;
+				font-size: 20px;
+				text-decoration: none;
+				text-transform: uppercase;
+				color: $headercolor;
+			}
+		}
+	}
+	.toolbar{
+		margin:25px 0px 25px;
+		text-align: right;
+
+		input{
+			font-size:130%;
+			padding: 10px;
+			border-color: $primarycolor;
+			color: $headercolor;
+		}
+		input::placeholder{
+			color: $headercolor;
+		}
+	}
+	.post-list{
+		display: flex;
+		flex-flow: row wrap;
+		height: auto;
+		overflow: auto;
+		align-content: flex-start;
+		justify-content: space-between;
+		article{
+			background-color: $backgroundcolor;
+ 			width: 45%;
+			margin:20px;
+			margin-right: 0;
+			height: max-content;
+
+			padding: 10px;
+			.post-description, h3{
+				color:$postlistcolor;
+			}
+			h3{
+				border-top: 1px solid $postHcolor;
+				text-transform: uppercase;
+				padding-top:10px;
+				margin: 10px 0 10px 0;
+			}
+			img{
+				width: 100%;
+			}
+			p{
+				margin:10px 0 10px 0;
+			}
+		}
+	}
+
+	.about{
+		h1{
+			color:$primarycolor;
+			text-align: right;
+			text-transform: uppercase;
+		}
+		img{
+			width: calc(100% - 16px);
+		}
+		p, img{
+			margin: 16px 16px 16px;
+		}
+	}
+
+
+	.contact-form{
+		h1,h4{
+			color:$primarycolor;
+			text-align: right;
+			text-transform: uppercase;
+			margin:0;
+		}
+		.contact-input{
+			margin-left:16px;
+			textarea{
+				font-family: Arial;
+				width: 100%;
+			}
+			input{
+				height: 30px;
+			}
+			input, textarea{
+				width: 100%;
+				margin-top: 10px;
+				margin-bottom: 10px;
+				padding: 10px 0 10px 0;
+				border-color: $postHcolor;
+				border-width: 1px;
+			}
+			.btn{
+				background-color: $primarycolor;
+				color:white;
+				width: 15%;
+				float: right;
+				line-height: 10px;
+				box-sizing: border-box;
+				text-transform: uppercase;
+			}
+		}
+	}
+	footer{
+		clear:both;
+		margin-left:16px;
+		font-size: small;
+		color: $pcolor;
+	}
+	p{
+		color:$pcolor;
+	}
+
+}
