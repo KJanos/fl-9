@@ -1,0 +1,47 @@
+
+body {
+  header {
+    a{
+      color: white;
+      text-decoration: none;
+    }
+    position: relative;
+    .title{
+      position: absolute;
+      top: 2%;
+      left:2%;
+      text-transform: uppercase;
+    }
+    nav{
+      width: 40%;
+      position: absolute;
+      top:2%;
+      right:2%;
+      a{
+        margin-left: 10%;
+      }
+      text-align: right;
+    }
+    .h{
+      position: absolute;
+      text-align: center;
+      top:50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      h1{
+        text-transform: lowercase;
+      }
+    }
+    input{
+      position: absolute;
+      top:85%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border:2px solid #F3F3F3;
+      background-color: #343638;
+      color:#F3F3F3;
+      padding: 1% 4.5%;
+    }
+    }
+}

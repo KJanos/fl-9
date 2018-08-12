@@ -1,0 +1,38 @@
+body header {
+  position: relative; }
+  body header a {
+    color: white;
+    text-decoration: none; }
+  body header .title {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    text-transform: uppercase; }
+  body header nav {
+    width: 40%;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    text-align: right; }
+    body header nav a {
+      margin-left: 10%; }
+  body header .h {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; }
+    body header .h h1 {
+      text-transform: lowercase; }
+  body header input {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid #F3F3F3;
+    background-color: #343638;
+    color: #F3F3F3;
+    padding: 1% 4.5%; }
+
+/*# sourceMappingURL=style.css.map */
