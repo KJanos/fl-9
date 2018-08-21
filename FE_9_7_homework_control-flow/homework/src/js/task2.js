@@ -14,7 +14,6 @@ if (confirm('Do you want to play a game?')){
     do {
         cont = false;
         let num = Math.floor(Math.random() * (data.range+data.magicone));
-        console.log(num);
         let win = false;
         for (let i = 0, prize = data.prize; i < conf.maxattempts; prize = Math.floor(prize/2), i++) {
             let usernum = +prompt('Enter a number from 0 to ' + data.range + '\n' +
